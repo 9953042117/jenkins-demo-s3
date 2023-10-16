@@ -6,7 +6,7 @@ on:
 #what you want to do
   push: 
     branches:     
-	- main
+	- main:
 jobs:
   tests:   
     runs-on: ubuntu-latest
