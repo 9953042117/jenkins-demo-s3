@@ -1,0 +1,16 @@
+# This is basic workflow to help you get started with Actions
+name: demo-test
+
+# Event to triggers
+on:
+#what you want to do
+  push: 
+    branches:      # which branch would you like to push that event/jobs
+	     - main
+jobs:
+  tests:   # what kind of jobs would you like to execute 
+    runs-on: ubuntu-latest
+	steps: 
+	 - uses: actions/checkout@v3
+	 - name: print hello-world!
+	   run: echo "Hello World"
