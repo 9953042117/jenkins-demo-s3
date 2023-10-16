@@ -27,5 +27,5 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: make new files
-        run: touch abcd{1..4}.txt
+        files: touch abcd{1..4}.txt
       
