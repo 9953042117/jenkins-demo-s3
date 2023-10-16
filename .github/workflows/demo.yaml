@@ -24,6 +24,6 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: finnp/create-file-actions/checkout@v3
-        run: touch abcd{1..3}.txt
+        
 
       
